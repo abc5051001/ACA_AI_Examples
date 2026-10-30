@@ -1,0 +1,20 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime and generated artifacts, if implementation adds them
+node_modules/
+.runtime/
+test-results/
+*.log
+
+# Private email/document imports belong outside the tracked demo fixtures
+private-data/
+local-data/
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
